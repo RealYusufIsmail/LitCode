@@ -1,6 +1,6 @@
 package `217`
 
-class Solution {
+class DuplicateSolution {
 
     /**
      * We do a for loop where we from the start till the end. With this for loop we check if the set which has been created contains a duplicate number.
