@@ -12,6 +12,6 @@ object Factorial {
 
     @JvmStatic
     fun handleCombinations(n: Int, r: Int): Int {
-        return handleFactorial(n) / (handleFactorial(r) * handleFactorial(n - r))
+        return handleFactorial(n) / (handleFactorial(n - r) * handleFactorial(r))
     }
 }

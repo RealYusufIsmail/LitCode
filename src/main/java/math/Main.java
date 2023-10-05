@@ -1,10 +1,15 @@
 package math;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        var fourFactorial = Factorial.handleFactorial(4);
+        int combinations = Factorial.handleFactorial(8);
+        int combinations3 = Factorial.handleFactorial(6);
 
-        System.out.println(Factorial.handleCombinations(10, 3));
+        System.out.println(combinations / (4 * combinations3));
+
+        System.out.println(2+4+8+16+32);
     }
 }
 
